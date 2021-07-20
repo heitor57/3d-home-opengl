@@ -289,22 +289,22 @@ void inicializar(){
     /* define the viewing transformation */
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
-        glEnable(GL_BLEND);
-    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+        /*glEnable(GL_BLEND);*/
+    /*glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);*/
 
 
-  glEnable(GL_LIGHT0);
-  glEnable(GL_LIGHTING);
-glEnable(GL_COLOR_MATERIAL);
-GLfloat light_ambient[] = { 0.2, 0.2, 0.2, 1.0 };
-GLfloat light_diffuse[] = { 1.0, 1.0, 1.0, 1.0 };
-GLfloat light_specular[] = { 1.0, 1.0, 1.0, 1.0 };
-GLfloat light_position[] = { 1.0, 1.0, 0.0, 0.0 };
+  /*glEnable(GL_LIGHT0);*/
+  /*glEnable(GL_LIGHTING);*/
+/*glEnable(GL_COLOR_MATERIAL);*/
+/*GLfloat light_ambient[] = { 0.2, 0.2, 0.2, 1.0 };*/
+/*GLfloat light_diffuse[] = { 1.0, 1.0, 1.0, 1.0 };*/
+/*GLfloat light_specular[] = { 1.0, 1.0, 1.0, 1.0 };*/
+/*GLfloat light_position[] = { 1.0, 1.0, 0.0, 0.0 };*/
 
-glLightfv(GL_LIGHT0, GL_AMBIENT, light_ambient);
-glLightfv(GL_LIGHT0, GL_DIFFUSE, light_diffuse);
-glLightfv(GL_LIGHT0, GL_SPECULAR, light_specular);
-glLightfv(GL_LIGHT0, GL_POSITION, light_position);
+/*glLightfv(GL_LIGHT0, GL_AMBIENT, light_ambient);*/
+/*glLightfv(GL_LIGHT0, GL_DIFFUSE, light_diffuse);*/
+/*glLightfv(GL_LIGHT0, GL_SPECULAR, light_specular);*/
+/*glLightfv(GL_LIGHT0, GL_POSITION, light_position);*/
 
 /*GLfloat mat_specular[] = { 0.0, 0.0, 0.0, 0.0 };*/
    /*GLfloat mat_shininess[] = { 0.001 };*/
